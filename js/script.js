@@ -19,7 +19,7 @@ let year = 2022;
 
 //ELABORAZIONE
 //esecuzione informazioni
-let infUser = `Nome: ${userName} Cognome: ${lastName} Colore preferito: ${colorName} Anno: ${year}`;
+let infUser = `${userName}${lastName}${colorName}${year}`;
 console.log(infUser, typeof(infUser));
 
 //OUTPUT
