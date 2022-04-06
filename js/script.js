@@ -20,7 +20,8 @@ let year = 2022;
 //ELABORAZIONE
 //esecuzione informazioni
 let infUser = `Nome: ${userName} Cognome: ${lastName} Colore preferito: ${colorName} Anno: ${year}`;
-console.log(infUser);
+console.log(infUser, typeof(infUser));
 
 //OUTPUT
 //visualizzare informazioni nel browser
+document.getElementById('user').innerHTML = infUser;
