@@ -1,0 +1,22 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* text */
+.container{
+    width: 60%;
+    background-color: gray;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding: 2em 0;
+    margin-top: 2em;
+}
+
+#user{
+    padding: 1em 3em;
+    font-size: 1.5em;
+}
